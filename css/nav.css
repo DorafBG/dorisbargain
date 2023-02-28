@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body a{
+    color: rgb(104, 40, 32);
+}
+
+header{
+    background-image: url("../img/dori-splashbg.png");
+    padding: 13px;
+    margin: 0;
+    text-align: center;
+    border-bottom: 3px solid; 
+}
+
+
+nav a{
+    margin-left: 1.3cm;
+    margin-right: 1.3cm;
+    color: rgb(255, 188, 255);
+    text-decoration: solid;
+    font-size: 22px;
+
+}
+
+nav > a:hover {
+    color: rgb(122, 1, 173);
+    font-size: 1.5em;
+    transition: 1.3s 
+}
+
+header p{
+    padding: 15px;
+    font-size: 20px;
+}
+
+@font-face{
+    font-family: 'Genshin';
+    src : url('font.ttf') format('truetype');
+    font-weight: normal;
+    font-weight: normal;
+}
+
+body{
+    text-align: center;
+    font-family: 'Genshin';
+    background-color: rgb(151, 71, 227);
+
+}
+
+header img {
+    align-items: center;
+    display: block;
+    margin: auto;
+    width: auto;
+    height: 10vh;
+    min-width: 220px;
+    min-height: 90px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+
+footer {
+    position: absolute;
+    text-align: center;
+    background-color: rgb(96, 5, 93);
+    color: #fff;
+    padding: 1% 0;
+    display: block;
+    width: 100%;
+}
+
+footer a{
+    color: red;
+}
+
+footer p{
+    padding:7px;
+}

@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+@import url("./nav.css");
+
+label {
+    display: block;
+    font: 1rem;
+}
+input,
+label {
+    margin: .4rem 0;
+}
+
+h1,h2,h3{
+    text-decoration:4px underline;
+}
+
+#Converter{
+    padding: 20px;
+    margin-top: 1em;
+    text-align: center;
+}
+
+#Converter p{
+    padding: 20px;
+    margin-top: 5px;
+}
+
+.imageconv{
+    width: 80%;
+}
+
+input
+{
+font-family: 'Genshin';
+  height: 50px;
+  width: 300px;
+  font-size: 3.5em;
+}

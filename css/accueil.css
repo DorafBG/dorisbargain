@@ -1,0 +1,66 @@
+﻿@charset "utf-8";
+
+@import url("./nav.css");
+
+#Accueil{
+    padding: 18px;
+    margin-top: 1em;
+}
+
+#Accueil p{
+    padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+#Accueil h1{
+    margin-bottom: 15px;
+    text-decoration:4px underline;
+    font-size: 2em;
+}
+h2:nth-child(2){
+    text-decoration:4px underline;
+    position: relative;
+    bottom:-2px;
+    font-size: 2em;
+}
+
+#Highlight div{
+	text-align: center;
+    margin: 15%;
+    border-collapse: collapse;
+}
+
+#Highlight img{
+	width: 100%;
+	border-bottom: 1px black solid;
+	height: auto;
+	vertical-align:middle;
+} 
+
+#Highlight div img{
+    border: 3px solid black;
+}
+
+#Highlight div img:hover{
+    z-index: 200;
+    transform:scale(1.15);
+}
+
+#Highlight div a{
+    color: rgb(253, 222, 249);
+}
+
+div h2{
+    border-bottom: 3px solid black;
+    padding-bottom: 1em;
+    border-collapse: collapse;
+}
+
+#Highlight{
+    float: initial;
+    width: 100%;
+    display: inline-grid;
+    grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
+}

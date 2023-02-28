@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+@import url("./nav.css");
+
+@media (max-width: 900px){
+.imagecap{
+    grid-row: unset;
+}
+}
+@media (min-width: 901px){
+    main{
+        padding: 3em;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .imagecap img{
+        margin-right: 15%;
+    }
+    
+    /*La ou j'ai pris le transform étant donné que mon align-self ne voulait pas 
+    centrer verticalement dans le grid mon image
+    https://stackoverflow.com/questions/50010006/how-to-center-an-image-in-css-grid*/
+    
+    main figcaption{
+        margin-right: 15%;
+        text-align: center;
+        transform: translateY(20%);
+    }
+
+}
+
+figcaption{
+    margin-right: 15%;
+}
+
+.imagecap img{
+    width: 60%;
+    border: 15px ridge #956952;
+    transform: translateY(10%);
+    text-align: center;
+}
+
+.texte{
+
+    grid-row: 1;
+    padding: 15px;  
+    margin-bottom: 3em;  
+}
+
+h3{
+    padding: 1em;
+    font-size: 2em;
+    text-decoration:4px underline;
+}
+
+.perso{
+    color:#623218;
+    text-decoration: underline;
+    margin-bottom: 1.5em;
+}
+
+button,button a{
+    background-color: rgb(96, 5, 93);
+    color: rgb(255, 188, 255);
+    padding: 0.5em;
+    width: auto;
+}
+
+button img{
+    width: 15%;
+}
+
+button:hover{
+    background-color: rgb(133, 4, 129);
+    cursor: pointer;
+}
+button:hover a{
+    background-color: rgb(133, 4, 129);
+}
+
+.panier{
+    min-width: 150px;
+    width: 35%;
+    height: 15%;
+    border-radius: 30px;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.prix{
+    font-size: 3em;
+    padding: 0.5em;
+}
+.prix::after{
+    content: url(../img/Moraprix.png);
+    vertical-align:-0.45ch;
+}
+
+select{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.choix{
+    margin-bottom: 25px;
+}
+
